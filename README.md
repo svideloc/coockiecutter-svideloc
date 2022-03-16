@@ -1,2 +1,2 @@
-# coockiecutter-svideloc
-template for generic python libraries using coockiecutter
+# Cookiecutter for Generic Python Libraries 
+

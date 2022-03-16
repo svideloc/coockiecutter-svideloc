@@ -1,0 +1,12 @@
+{
+    "full_name": "Sam Videlock",
+    "email": "svideloc@gmail.com",
+    "github_username": "svideloc",
+    "project_name": "test_project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "A short description of the project",
+    "release_date": "{% now 'local' %}",
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ','-') }}",
+    "version": "0.1.0",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}

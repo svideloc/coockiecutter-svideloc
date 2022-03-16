@@ -1,0 +1,4 @@
+# dev requirements
+pytest
+pylint
+twine
