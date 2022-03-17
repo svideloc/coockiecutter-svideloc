@@ -31,9 +31,8 @@ cookiecutter cookiecutter-svideloc
 The directory structure of your new project looks like this: 
 
 ```
-├── Makefile           <- Makefile with commands like `make data` or `make train`
+├── Makefile           <- Makefile with commands like `make install` or `make manual-build`
 ├── README.md          <- The top-level README for developers using this project.
-│
 ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
 ├── tests              <- directory for test files of the package modules to go
 │
