@@ -4,8 +4,8 @@ omit =
     */test_*.py
     */*_tests.py
     */{{ cookiecutter.project_slug }}/__init__.py
-    */{{ cookiecutter.project_slug }}1/__main__.py
-    */{{ cookiecutter.project_slug }}1/_version.py
+    */{{ cookiecutter.project_slug }}/__main__.py
+    */{{ cookiecutter.project_slug }}/_version.py
     
 exclude_lines =
     if __name__ == __main__

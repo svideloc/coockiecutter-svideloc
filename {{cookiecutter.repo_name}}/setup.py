@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 import re
 
 try:
-    with open(f'{ {{ cookiecutter.project_slug }} }/_version.py', 'r') as content_file:
+    with open('{{ cookiecutter.project_slug }}/_version.py', 'r') as content_file:
         content = content_file.read()
         VERSION = re.match(r'[\S\s]*VERSION\s*=\s*\"(.*)\"[\S\s]*', content).group(1)
 except Exception as e:

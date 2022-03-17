@@ -63,4 +63,4 @@ The directory structure of your new project looks like this:
 ### Running the tests
 ------------
 
-    py.test tests
+    pytest tests/*py
