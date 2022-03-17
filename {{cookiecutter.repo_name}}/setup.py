@@ -20,6 +20,6 @@ setup(
     author_email= "{{ cookiecutter.email }}",
     include_package_data=True,
     install_requires=[],
-    packages=find_packages(exclude=('tests', 'notebooks')),
+    packages=find_packages(exclude=('tests', 'notebooks', 'scripts')),
     entry_points={}
 )
