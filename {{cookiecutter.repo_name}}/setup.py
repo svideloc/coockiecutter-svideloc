@@ -12,12 +12,12 @@ except Exception as e:
     raise e
 
 setup(
-    name={{ cookiecutter.project_slug }},
+    name="{{ cookiecutter.project_slug }}",
     version=VERSION,
     python_requires='~=3.8',
-    description={{ cookiecutter.project_short_description }},
-    author= {{ cookiecutter.full_name }},
-    author_email= {{ cookiecutter.email }},
+    description="{{ cookiecutter.project_short_description }}",
+    author= "{{ cookiecutter.full_name }}",
+    author_email= "{{ cookiecutter.email }}",
     include_package_data=True,
     install_requires=[],
     packages=find_packages(exclude=('tests', 'notebooks')),
